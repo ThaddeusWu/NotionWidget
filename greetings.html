@@ -44,7 +44,9 @@ body{
 
     var greet;
 
-    if (hrs < 10)
+    if (hrs < 6)
+        greet = 'Good Evening, Siyuan! <br> Welcome Home! <br> Have a sweet dream! '
+    else if (hrs >= 6 && hrs < 10)
         greet = 'Good Morning, Siyuan! <br> Welcome Home! <br> Ready to go? <br> Do not forget to check your inbox! ';
     else if (hrs >= 10 && hrs < 12)
         greet = 'Good Morning, Siyuan! <br> Welcome Home! <br> Here we go! <br> Follow your plan to finish all tasks! ';
